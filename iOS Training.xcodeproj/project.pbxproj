@@ -15,6 +15,10 @@
 		C70920BB1BF4D55800FADA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70920B91BF4D55800FADA5C /* LaunchScreen.storyboard */; };
 		C70920C61BF4D55900FADA5C /* iOS_TrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70920C51BF4D55900FADA5C /* iOS_TrainingTests.m */; };
 		C70920D11BF4D55900FADA5C /* iOS_TrainingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70920D01BF4D55900FADA5C /* iOS_TrainingUITests.m */; };
+		C739EFF41C0CADCF00915588 /* Apparel.m in Sources */ = {isa = PBXBuildFile; fileRef = C739EFF31C0CADCF00915588 /* Apparel.m */; settings = {ASSET_TAGS = (); }; };
+		C739EFFA1C0CB27200915588 /* Shoes.m in Sources */ = {isa = PBXBuildFile; fileRef = C739EFF91C0CB27200915588 /* Shoes.m */; settings = {ASSET_TAGS = (); }; };
+		C7D7AEEF1C04AB380080DFF6 /* vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D7AEEE1C04AB380080DFF6 /* vehicle.m */; settings = {ASSET_TAGS = (); }; };
+		C7D7AEF21C04AF120080DFF6 /* car.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D7AEF11C04AF120080DFF6 /* car.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		C70920CC1BF4D55900FADA5C /* iOS TrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS TrainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70920D01BF4D55900FADA5C /* iOS_TrainingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_TrainingUITests.m; sourceTree = "<group>"; };
 		C70920D21BF4D55900FADA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C739EFF21C0CADCF00915588 /* Apparel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apparel.h; sourceTree = "<group>"; };
+		C739EFF31C0CADCF00915588 /* Apparel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apparel.m; sourceTree = "<group>"; };
+		C739EFF81C0CB27200915588 /* Shoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shoes.h; sourceTree = "<group>"; };
+		C739EFF91C0CB27200915588 /* Shoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shoes.m; sourceTree = "<group>"; };
+		C7D7AEED1C04AB380080DFF6 /* vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vehicle.h; sourceTree = "<group>"; };
+		C7D7AEEE1C04AB380080DFF6 /* vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vehicle.m; sourceTree = "<group>"; };
+		C7D7AEF01C04AF120080DFF6 /* car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = car.h; sourceTree = "<group>"; };
+		C7D7AEF11C04AF120080DFF6 /* car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +116,20 @@
 				C70920AE1BF4D55800FADA5C /* AppDelegate.h */,
 				C70920AF1BF4D55800FADA5C /* AppDelegate.m */,
 				C70920B11BF4D55800FADA5C /* ViewController.h */,
+				C7D7AEED1C04AB380080DFF6 /* vehicle.h */,
+				C7D7AEEE1C04AB380080DFF6 /* vehicle.m */,
+				C7D7AEF01C04AF120080DFF6 /* car.h */,
+				C7D7AEF11C04AF120080DFF6 /* car.m */,
 				C70920B21BF4D55800FADA5C /* ViewController.m */,
 				C70920B41BF4D55800FADA5C /* Main.storyboard */,
 				C70920B71BF4D55800FADA5C /* Assets.xcassets */,
 				C70920B91BF4D55800FADA5C /* LaunchScreen.storyboard */,
 				C70920BC1BF4D55800FADA5C /* Info.plist */,
 				C70920AB1BF4D55800FADA5C /* Supporting Files */,
+				C739EFF21C0CADCF00915588 /* Apparel.h */,
+				C739EFF31C0CADCF00915588 /* Apparel.m */,
+				C739EFF81C0CB27200915588 /* Shoes.h */,
+				C739EFF91C0CB27200915588 /* Shoes.m */,
 			);
 			path = "iOS Training";
 			sourceTree = "<group>";
@@ -270,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D7AEEF1C04AB380080DFF6 /* vehicle.m in Sources */,
+				C7D7AEF21C04AF120080DFF6 /* car.m in Sources */,
 				C70920B31BF4D55800FADA5C /* ViewController.m in Sources */,
+				C739EFF41C0CADCF00915588 /* Apparel.m in Sources */,
+				C739EFFA1C0CB27200915588 /* Shoes.m in Sources */,
 				C70920B01BF4D55800FADA5C /* AppDelegate.m in Sources */,
 				C70920AD1BF4D55800FADA5C /* main.m in Sources */,
 			);
@@ -498,6 +522,7 @@
 				C70920D71BF4D55900FADA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C70920D81BF4D55900FADA5C /* Build configuration list for PBXNativeTarget "iOS TrainingTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				C70920DA1BF4D55900FADA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C70920DB1BF4D55900FADA5C /* Build configuration list for PBXNativeTarget "iOS TrainingUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				C70920DD1BF4D55900FADA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
